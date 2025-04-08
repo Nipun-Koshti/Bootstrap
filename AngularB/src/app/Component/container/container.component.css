@@ -1,0 +1,23 @@
+.background{
+    min-height: 95vh;
+    max-height: fit-content;
+    background: linear-gradient(to right, #f53a3a , #a9a119 70% );
+}
+
+
+.trials{
+    height: 40vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    
+}
+
+.show{
+    box-shadow: 0px 0px 5px black;
+}
