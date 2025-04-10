@@ -8,6 +8,11 @@ a{
     color: antiquewhite;
 }
 
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
 .active{
     text-decoration: underline;
    

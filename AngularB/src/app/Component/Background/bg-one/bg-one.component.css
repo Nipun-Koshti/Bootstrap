@@ -1,0 +1,12 @@
+.container-fluid
+{
+    height: 90vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    height: 90vh;
+    width: 90%;
+    background: repeating-linear-gradient(red 40px, blue 50px);
+}

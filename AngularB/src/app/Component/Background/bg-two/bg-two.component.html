@@ -1,0 +1,11 @@
+<div class="alpha">
+
+    <div class="under"></div>
+    <div id="grid">
+        <div class="cell" *ngFor="let cell of cells; let i = index"
+        (mouseenter)="onHover(i)"
+        (mouseleave)="onLeave(i)"></div>
+    </div>
+
+</div>
+
